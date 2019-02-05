@@ -7,6 +7,10 @@
     "default_title": "DeClutter"
   },
   "version": "1.0",
-  "content_security_policy": "script-src 'self' 'unsafe-inline' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='"
+  "content_security_policy": "script-src 'self' 'unsafe-inline' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='",
+  "icons": {
+    "16": "shelf-16x16.png",
+    "48": "shelf-48x48.png"
+  }
 }
 
