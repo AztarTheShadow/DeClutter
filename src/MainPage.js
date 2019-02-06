@@ -8,7 +8,7 @@ export class MainPage extends React.Component {
 
     render() {
         return (
-            <button onClick={this.props.onClick}>
+            <button onClick={this.props.onClick} className="container">
                 MainPage
             </button>
         );

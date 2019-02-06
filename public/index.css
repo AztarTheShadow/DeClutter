@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.mainWindow {
+    width: 600px;
+    height: 450px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.add-title {
+    width: 100%;
+    height: auto;
+    background: red;
+    display: flex;
+    padding: 2px;
+}
+
+.add-title input {
+    flex: 1;
+}
+
+.add-contents {
+    width: 100%;
+    background: green;
+    flex: 1;
+}
+
+.add-footer {
+    width: 100%;
+    height: auto;
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-footer button {
+    font-size: 20px;
+}
+
+.link-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.link-input input {
+    flex: 1;
+}
+
+.link-input button {
+    width: auto;
+}

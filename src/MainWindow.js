@@ -7,7 +7,7 @@ export class MainWindow extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            window: "main"
+            window: "add"
         };
         this.switchToAddPage = this.switchToAddPage.bind(this);
         this.switchToMainPage = this.switchToMainPage.bind(this);
@@ -22,18 +22,22 @@ export class MainWindow extends React.Component {
     }
 
     render() {
-        let returnJSX;
+        let innerJSX;
         
         if (this.state.window === "main") {
-            returnJSX = (
+            innerJSX = (
                 <MainPage onClick={this.switchToAddPage} />
             );
         } else if (this.state.window === "add") {
-            returnJSX = (
+            innerJSX = (
                 <AddPage onClick={this.switchToMainPage} />
             );
         }
 
-        return returnJSX;
+        return (
+            <div className="mainWindow">
+                {innerJSX}
+            </div>
+        );
     }
 }
