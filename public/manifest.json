@@ -6,6 +6,9 @@
     "default_popup": "index.html",
     "default_title": "DeClutter"
   },
+  "permissions": [
+    "storage"
+  ],
   "version": "1.0",
   "content_security_policy": "script-src 'self' 'unsafe-inline' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='",
   "icons": {

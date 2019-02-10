@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 20px;
 }
 
 .mainWindow {
@@ -10,12 +11,84 @@ body {
 .container {
     width: 100%;
     height: 100%;
+}
+
+.main-page {
     display: flex;
     flex-direction: column;
 }
 
+.main-header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
 
-.add-title {
+.main-header input {
+    flex: 1;
+    height: fit-content;
+}
+
+.main-header-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-contents {
+    flex: 7;
+    display: flex;
+}
+
+.group-nav {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: green;
+}
+
+.group-contents {
+    flex: 3;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-contents {
+    flex: 1;
+}
+
+.link-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-link-header {
+    flex: 1;
+}
+
+.add-link-form {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-contents {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-button-footer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Add Page 1.0 */
+
+/* .add-title {
     width: 100%;
     height: auto;
     background: red;
@@ -57,4 +130,4 @@ body {
 
 .link-input button {
     width: auto;
-}
+} */
